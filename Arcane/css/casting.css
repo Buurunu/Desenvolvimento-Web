@@ -1,0 +1,43 @@
+body{
+    background-image: url("../assets/imagens/Universso.png");
+}
+
+main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+section{
+    display: grid; /* Altera para grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas iguais */
+    gap: 150px; /* Espaço entre os itens */
+    justify-items: center; /* Centraliza os itens horizontalmente */
+    padding: 20px;
+
+}
+
+.casting img {
+    width: 250px; /* Define a largura fixa da imagem */
+    height: 250px; /* Define a altura fixa da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+    margin-bottom: 25px; /* Espaço entre a imagem e o texto */
+    border: 2px solid rgba(0, 0, 0, 0.6); /* Borda semitransparente */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5); /* Sombra mais suave */
+}
+
+.casting h2 {
+    font-size: 35px;
+    margin: 20px 0;
+    text-align: center; /* Centraliza o texto */
+}
+
+
+.casting p {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center; /* Centraliza o texto */
+}

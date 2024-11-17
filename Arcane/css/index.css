@@ -1,0 +1,36 @@
+body{
+    background-image: url("../assets/imagens/Background\ 1.jpg");
+}
+
+main{
+    align-items:flex-start;
+    justify-content: first baseline;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h1{
+    font-family: 'Secular One';
+    color: #fff;
+    font-size: 50px;
+}
+
+#Arcane{
+    margin-top: 180px;
+    font-size: 150px;
+    margin-left: 120px;
+    color: rgb(112, 88, 52);
+    filter: brightness(1.5);
+    text-shadow: 
+    -1px -1px 0 black,
+     10px -1px 0 black,
+    -1px  1px 0 black,
+     10px  1px 0 black;  
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 35px;
+        width: 300px;
+        text-align: center;
+    }
+}

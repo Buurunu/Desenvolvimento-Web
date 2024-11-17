@@ -1,0 +1,25 @@
+body{
+    background-image: url("../assets/imagens/Piltover.jpg");
+}
+main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    font-family: 'Secular One';
+    color: #fff;
+    font-size: 70px;
+}
+
+.piltovertxt {
+    color: #fff;
+    font-size: 22px;
+    width: 50%;
+    line-height: 130%;
+    margin-top: 30px;
+}
+
+

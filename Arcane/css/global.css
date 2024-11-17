@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+.titulo{
+    font-family: 'Secular One';
+    color: #fff;
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+.subtitulo{
+    font-family: 'Secular One';
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 35px;
+    margin-top: 150px;
+}
+
+
+h1, h2, h3, p {
+    font-family: 'Secular One';
+    color: white;
+
+}
+
+main{
+    width: 100%;
+    height: calc(100dvh - 120px);
+    display: flex;
+    margin-top: 60px;
+    padding-bottom: 0px;
+    overflow-y: auto;
+}
+
+p{ 
+    font-size: 15px;
+    text-align: justify;
+}
+

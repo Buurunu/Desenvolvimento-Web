@@ -1,0 +1,15 @@
+body{
+    background-image: url("../assets/imagens/Jinx\ background\ 2.jpg");
+}
+
+main{
+    align-items:flex-end;
+    justify-content:center;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+iframe {
+    width: 50%;
+    height: 25%;
+}
