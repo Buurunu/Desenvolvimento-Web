@@ -15,8 +15,9 @@ h1{
 }
 
 #Arcane{
+    font-family: 'Cinzel Decorative';
     margin-top: 180px;
-    font-size: 150px;
+    font-size: 130px;
     margin-left: 120px;
     color: rgb(112, 88, 52);
     filter: brightness(1.5);

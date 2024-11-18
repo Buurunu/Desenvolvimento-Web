@@ -30,7 +30,8 @@ section{
 }
 
 .casting h2 {
-    font-size: 35px;
+    font-family: 'Cinzel Decorative';
+    font-size: 30px;
     margin: 20px 0;
     text-align: center; /* Centraliza o texto */
 }
