@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Bem-vindo, <span id="user-name"></span>!</h1>
+
+    <script>
+        // Obtém o nome de usuário armazenado no localStorage
+        const username = localStorage.getItem('loggedInUser');
+        
+        if (username) {
+            // Exibe o nome do usuário na tela
+            document.getElementById('user-name').textContent = username;
+        } else {
+            // Se o usuário não estiver logado, redireciona para a tela de login
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

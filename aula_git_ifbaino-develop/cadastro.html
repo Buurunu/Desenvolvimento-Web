@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="caixa-container">
+        <form id="form-cadastro" class="cadastro-form">
+            <h1>Cadastro</h1>
+            <div class="form-group">
+                <label for="new-username">Novo Usuário</label>
+                <input required type="text" id="new-username" name="new-username" placeholder="Escolha um nome de usuário">
+            </div>
+            <div class="form-group">
+                <label for="new-password">Nova Senha</label>
+                <input required type="password" id="new-password" name="new-password" placeholder="Escolha uma senha">
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Repita a Senha</label>
+                <input required type="password" id="confirm-password" name="confirm-password" placeholder="Repita a senha">
+            </div>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div class="acao-voltar">
+            <button id="botao-voltar" class="botao-voltar" onclick="location.href='index.html'">
+                Voltar ao Login
+            </button>
+        </div>
+    </div>
+
+    <script src="password.js"></script>
+    <script src="cadastro.js"></script>
+</body>
+</html>
